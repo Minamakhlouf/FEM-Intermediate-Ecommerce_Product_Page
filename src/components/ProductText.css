@@ -1,0 +1,75 @@
+.product-text {
+    padding: 24px; 
+}
+
+.product-text_company {
+    color: #FF7E1B; 
+    font-size: 12px; 
+    font-weight: 700; 
+    text-transform: uppercase;
+    letter-spacing: 1.85px;
+    margin-bottom: 19px; 
+}
+
+.product-text_heading {
+    font-size: 28px; 
+    line-height: 32/28; 
+    font-weight: bold; 
+    margin-bottom: 15px; 
+}
+
+.product-text_paragraph {
+    color: #69707d; 
+    font-size: 15px; 
+    line-height: 1.66;
+    margin-bottom: 24px; 
+}
+
+.product-text_prices {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-text_price-and-discount {
+    display: flex; 
+    gap: 16px; 
+    align-items: center;
+}
+
+.product-text_price-new {
+    font-weight: bold; 
+    font-size: 28px; 
+}
+
+.product-text_discount {
+    color: #FF7E1B; 
+    background-color: #ffeee2;
+    padding: 8px; 
+    font-weight: bold; 
+    font-size: 16px; 
+    border-radius: 10px; 
+}
+
+.product-text_price-old {
+    color: #b6bcc8; 
+    text-decoration: line-through;
+    font-size: 16px; 
+    line-height: 26/16; 
+}
+
+@media screen and (min-width: 790px) {
+    .product-text_heading {
+        font-size: 44px; 
+    }
+    .product-text_paragraph {
+        font-size: 16px; 
+        line-height: 1.625;
+    }
+    .product-text_prices {
+        display: block; 
+    }
+    .product-text_price-and-discount {
+        margin-bottom: 3px; 
+    }
+}
