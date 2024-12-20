@@ -4,7 +4,7 @@ const ProductText = () => {
     return (
         <div className="product-text">
             <p className="product-text_company">Sneaker Company</p>
-            <h2 className="product-text_heading">Fall Limited Edition Sneakers</h2>
+            <h1 className="product-text_heading">Fall Limited Edition Sneakers</h1>
             <p className="product-text_paragraph">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
             <div className="product-text_prices">
                 <div className="product-text_price-and-discount">
